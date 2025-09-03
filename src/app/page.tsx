@@ -10,9 +10,10 @@ export default function Home() {
   return (
     <div>
       {!isConnected ? (
-        <div>
+        <div className="text-black">
           Please connect your wallet
         </div>
+
       ) : (
         <div>
           <HomeContent />
